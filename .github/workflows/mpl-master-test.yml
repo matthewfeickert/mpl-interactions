@@ -4,7 +4,6 @@ on:
   schedule:
     - cron: "0 16 * * 1" # monday at noon est
   push:
-    branches: [main]
   pull_request:
     branches: [main]
 
